@@ -108,19 +108,19 @@ The `oo-install` utility has been developed to function as a standalone applicat
 The recommended method for installing OpenShift is via a "curl-to-shell" command. From your command line, just run
 
 ----
-$ sh <(curl -s https://install.openshift.com/)
+$ sh <(curl -s https://install.openshift.com/origin-m4)
 ----
 
 If you want to pass arguments to the installer, include them after the whole command:
 
 ----
-$ sh <(curl -s https://install.openshift.com/) -e -s rhsm -u user@company.com
+$ sh <(curl -s https://install.openshift.com/origin-m4) -e -s rhsm -u user@company.com
 ----
 
 By default, the installer runs in Origin mode. If you want to install OpenShift Enterprise, you can either run:
 
 ----
-$ sh <(curl -s https://install.openshift.com/) -e
+$ sh <(curl -s https://install.openshift.com/origin-m4) -e
 ----
 
 ...or...
@@ -137,7 +137,7 @@ OpenShift Enterprise installations require access to Red Hat Subscription Manage
 === Portable Installer
 You can download a version of the online installer for use on a CD or USB drive. The latest versions of the portable packages are available at:
 
-* OpenShift Origin Portable: https://install.openshift.com/portable/oo-install-origin.tgz
+* OpenShift Origin Portable: https://install.openshift.com/portable/oo-install-origin-m4.tgz
 * OpenShift Enterprise Portable: https://install.openshift.com/portable/oo-install-ose.tgz
 
 To use these portable installers:
